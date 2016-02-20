@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USB C Checker</string>
+
+    <string name="texticon_error">:(</string>
+    <string name="texticon_bad">:/</string>
+
+    <string name="wrong_device">Only Nexus 5X and 6P are currently supported</string>
+    <string name="explanation_5x">
+        Possible values:\n
+        0: standard USB charging or not plugged in\n
+        1500-1.5: type C charging\n
+        3000-3: type C charging (an USB A to USB C cable is non-compliant)
+    </string>
+    <string name="explanation_6p">
+        Possible values:\n
+        0: standard USB charging or not plugged in\n
+        1-1.5: type C charging\n
+        3: type C charging (an USB A to USB C cable is non-compliant)
+    </string>
+</resources>
